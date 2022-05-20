@@ -6,7 +6,7 @@ import "../../../common/styles/gallery.css";
 import burgers from "../../../images/bestSellers/burgers.png";
 import italian from "../../../images/bestSellers/italian.png";
 import noodles from "../../../images/bestSellers/noodles.png";
-import pancakes from "../../../images/bestSellers/pancakes.png";
+//import pancakes from "../../../images/bestSellers/pancakes.png";
 import pineapple from "../../../images/bestSellers/pineapple.png";
 import umami from "../../../images/bestSellers/umami.png";
 
