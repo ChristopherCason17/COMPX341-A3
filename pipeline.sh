@@ -7,15 +7,11 @@ npm run build
 echo "(2) Committing Files to Version Control..."
 git init
 git add .
-git commit -m "Committing Files"
-if build; then
+git commit -m "COMPX341-22A-A3 Committing From CI/CD Pipeline"
 git remote add origin https://github.com/ChristopherCason17/COMPX341-A3.git
-git push origin master
+  git push origin master
+  echo "Commit Successful!"
 
-echo "Commit Successful!"
-else
-  echo "Commit Failed!"
-  fi
+  echo "(3) Launching Application..."
+  npm run start
 
-echo "(3) Launching Application..."
-npm run start
