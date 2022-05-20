@@ -8,10 +8,14 @@ echo "(2) Committing Files to Version Control..."
 git init
 git add .
 git commit -m "Committing Files"
+if build; then
 git remote add origin https://github.com/ChristopherCason17/COMPX341-A3.git
 git push origin master
 
-echo "(2) Commit Successful!"
+echo "Commit Successful!"
+else
+  echo "Commit Failed!"
+  fi
 
 echo "(3) Launching Application..."
 npm run start
